@@ -9,7 +9,39 @@ Some description of the CSS styling
 
 /* Actual CSS goes below here! */
 
-body {
+h1 {
   color: red;
+  font: helvetica;
+  text-align: center;
+  padding: 30px;
 
+}
+
+div {
+  width: 100%;
+     height: 20px;
+     background-color: red;
+     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+     animation-name: example;
+     animation-duration: 10s;
+     animation-delay: 1s;
+     animation-iteration-count: 2;
+     animation-direction: alternate;
+ }
+
+ /* Safari 4.0 - 8.0 */
+ @-webkit-keyframes example {
+     0%   {background-color: red;}
+     25%  {background-color: yellow;}
+     50%  {background-color: blue;}
+     100% {background-color: green;}
+ }
+
+ /* Standard syntax */
+ @keyframes example {
+     0%   {background-color: red;}
+     25%  {background-color: yellow;}
+     50%  {background-color: blue;}
+     100% {background-color: green;}
 }
