@@ -1,15 +1,20 @@
-/**********************************************
+$(document).ready(function () {
+  // All our code goes in here!
 
-DART 450, Winter 2018
-Title of Project
-Author
+  $('.faller').on('mouseover',function () {
 
-Description of what the script does...
+    $(this).animate({
+      opacity: '0',
+      top: '700px'
+    },1500,function () {
+      $(this).css({
+        top: '0px'
+      });
+      $(this).animate({
+        opacity: '1'
+      },500);
+    });
+  });
 
-**********************************************/
 
-$(document).ready() {
-
-  // Insert jQuery code here to run when the page is loaded
-  
-}
+});
