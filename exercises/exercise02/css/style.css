@@ -28,9 +28,10 @@ div {
 }
 
 h2 {
- 	color: white;
-	font-size: 20px;
- 	font-family: helvetica, sans-serif;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
  	text-align: left;
 	padding: 20px;
 	position: absolute;
