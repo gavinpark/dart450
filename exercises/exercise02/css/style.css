@@ -10,7 +10,7 @@ Some description of the CSS styling
 
 
 body {
-  background-color: darkslategrey;
+  background-color: #616A6B;
 }
 
 div {
@@ -18,7 +18,7 @@ div {
   font-family: helvetica;
   color: white;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .faller {
