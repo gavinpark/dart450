@@ -14,8 +14,10 @@ body {
 }
 
 div {
-  font-size: 60px;
-  font-family: helvetica;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
   color: white;
   text-align: center;
   padding-top: 40px;
@@ -23,4 +25,15 @@ div {
 
 .faller {
   position: relative;
+}
+
+h2 {
+ 	color: white;
+	font-size: 20px;
+ 	font-family: helvetica, sans-serif;
+ 	text-align: left;
+	padding: 20px;
+	position: absolute;
+	bottom: 20px;
+
 }
