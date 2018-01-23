@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $(this).animate({
       opacity: '0',
-      top: '700px'
+      top: '1000px'
     },1500,function () {
       $(this).css({
         top: '0px'
