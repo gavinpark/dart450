@@ -13,13 +13,10 @@ height: 100%;
 width: 100%
 }
 
-.email {
+.img {
+  position: absolute;
   height:100%;
   width:auto;
   vertical-align: top;
-  z-index: -100
-}
-
-.attachment {
-  height: 50px;
+  z-index: -100;
 }
