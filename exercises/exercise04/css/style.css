@@ -8,6 +8,18 @@ Some description of the CSS styling
 
 */
 
-body {
-  
+html, body {
+height: 100%;
+width: 100%
+}
+
+.email {
+  height:100%;
+  width:auto;
+  vertical-align: top;
+  z-index: -100
+}
+
+.attachment {
+  height: 50px;
 }
