@@ -13,10 +13,14 @@ height: 100%;
 width: 100%
 }
 
+.email {
+  width: 400px;
+  height: auto;
+}
 .img {
   position: absolute;
-  height:100%;
-  width:auto;
+  width:300px;
+  height: auto;
   vertical-align: top;
   z-index: -100;
 }

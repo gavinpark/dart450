@@ -1,0 +1,62 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+html {
+  height: 100%;
+}
+
+body {
+height: 100%;
+}
+
+div {
+  width: 25%;
+  float: left;
+  padding: 4px;
+  font-family: helvetica;
+
+}
+
+.day {
+  width:3fr;
+   background:#eee;
+   height:100%;
+   padding: 5px;
+}
+
+.month {
+  float:left;
+  width:3fr;
+  height:100%;
+  background:blue;
+  font-size: 40px;
+}
+.year {
+  float:left;
+  width:4fr;
+  height:100%;
+  background:red;
+  font-size: 60px;
+=======
+body {
+  
+>>>>>>> 58b10a1695b70e9b0b3300cddab312bc36938a4f
+=======
+body {
+  
+>>>>>>> 58b10a1695b70e9b0b3300cddab312bc36938a4f
+=======
+body {
+  
+>>>>>>> 58b10a1695b70e9b0b3300cddab312bc36938a4f
+}
