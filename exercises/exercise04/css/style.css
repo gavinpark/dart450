@@ -13,35 +13,23 @@ height: 100%;
 width: 100%
 }
 
-#email {
+.email {
   position: absolute;
-  width:auto;
   height:80%;
+  width:auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   z-index: -1;
 }
 
-#pastLooks {
+
+button {
   position: absolute;
   height: 100px;
-  width: auto;
-  bottom: 460px;
-  font-size: 70px;
-}
-
-#futureLooks {
-  position: absolute;
+  width: 400px;
   height: 100px;
   width: auto;
-  bottom: 260px;
   font-size: 70px;
-}
-
-.button {
-  height: 100px;
-  width: auto;
+  bottom: 20%;
 }
 
 }

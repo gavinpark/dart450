@@ -10,8 +10,24 @@ Description of what the script does...
 
 $(document).ready(function () {
 
-  // Insert jQuery code here to run when the page is loaded
+      $(".futureImages").hide();
+
+      $("#futureLooks").click(function(){
+          $(".futureImages").show();
+      });
+
+      setInterval(function() {
+           $('.futureImages').each(function(){
+             var randomX = Math.random() * $(window).width();
+             var randomY = Math.random() * $(window).height();
+             $(this).css({
+               position: 'absolute',
+               top: randomY,
+               left: randomX
+             });
+           });
+         }, 1000);
 
 
 
-});
+  });
