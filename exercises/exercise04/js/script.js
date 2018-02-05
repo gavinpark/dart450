@@ -26,7 +26,7 @@ $(document).ready(function () {
                left: randomX
              });
            });
-         }, 1000);
+         }, 1100);
 
 
 
