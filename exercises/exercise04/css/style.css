@@ -24,12 +24,12 @@ width: 100%
 
 button {
   position: absolute;
-  height: 100px;
+  height: 140px;
   width: 400px;
-  height: 100px;
   width: auto;
-  font-size: 70px;
+  font-size: 90px;
   bottom: 20%;
+  color: red;
 }
 
 }
