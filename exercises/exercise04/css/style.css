@@ -9,17 +9,38 @@ Some description of the CSS styling
 */
 
 body {
+  width: 100%;
+  width: 100%;
 }
 
 #email {
   position: absolute;
-  height:90%;
+  height:100%;
   width:auto;
-  display: block;
   z-index: -1;
 }
+#finalImage {
+  position: absolute;
+  height: 90%;
+  width: auto;
+  z-index: +100
+}
 
+.futureImages {
+  max-width: 500px;
+  width: auto;
+}
 
+p {
+  position: absolute;
+  font-family: helvetica;
+  font-size: 60px;
+  color: blue;
+  top: 45%;
+  margin-left: 35%;
+  z-index: +101;
+
+}
 button {
   position: absolute;
   height: 12%;
