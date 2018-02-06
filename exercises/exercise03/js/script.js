@@ -12,7 +12,10 @@ $(document).ready(function () {
 
   // Insert jQuery code here to run when the page is loaded
 
-$(div).({top: newTopLocation },animationTime)
-var animationTime = 500;
-var newTopLocation = "300px";
+var phrase01Delay = 100;
+setTimeout (function()
+$('#phrase01').fadeIn()
+}, phrase01Delay;
+
+});
 });
