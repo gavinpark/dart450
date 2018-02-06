@@ -8,14 +8,12 @@ Some description of the CSS styling
 
 */
 
-html, body {
-height: 100%;
-width: 100%
+body {
 }
 
-.email {
+#email {
   position: absolute;
-  height:80%;
+  height:90%;
   width:auto;
   display: block;
   z-index: -1;
@@ -24,10 +22,10 @@ width: 100%
 
 button {
   position: absolute;
-  height: 140px;
-  width: 400px;
+  height: 12%;
   width: auto;
-  font-size: 90px;
+  width: auto;
+  font-size: 70px;
   bottom: 20%;
   color: red;
 }
