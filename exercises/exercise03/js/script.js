@@ -15,7 +15,8 @@ Description of what the script does...
   $(document).ready(function(){
 
 
-      $('div').fadeOut(1);
-      $('div').removeClass('hidden');
-      $('div').fadeIn(10000);
+    var phrase01Delay = 100;
+setTimeout(function() {
+  $('.phrase').show('shake');
+}, phrase01Delay);
   });
