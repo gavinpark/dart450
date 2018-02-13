@@ -12,26 +12,28 @@ body {
   background-color: black;
 
 }
-
 div, button {
-  margin: 20px;
+  margin-top: 20px;
 }
 
-
 #intro {
+  font-family: helvetica;
   color: antiquewhite;
-  font-size: 40px;
-  line-height: 1.5;
+  font-size: 30px;
+  line-height: 1.25;
 }
 
 button {
+
   width: 100px;
   height: 100px;
+  font-family: helvetica;
   background-color: red;
   font-size: 20px;
 }
 
 .messageText {
+font-family: helvetica;
 color: antiquewhite;
-font-size: 40px;
+font-size: 60px;
 }

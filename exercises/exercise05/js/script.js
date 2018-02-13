@@ -8,7 +8,7 @@ Description of what the script does...
 
 **********************************************/
 
-var MAX_TIME = 20;
+var MAX_TIME = 60;
 
 var buttonCanBeClicked = false;
 var time = MAX_TIME;
@@ -25,7 +25,6 @@ $(document).ready(function () {
       $('#message').text("Greedy dog!");
     }
 
-
     else {
       $('#message').text("Good dog.");
       goodDogs = goodDogs + 1;
@@ -41,10 +40,10 @@ function tick() {
   $('#time').text(time);
   if (time <= 10) {
     buttonCanBeClicked = true;
+
   }
   if (time == 0) {
     $('#message').text("Bad dog.");
-    goodDogs = goodDogs -1;
     resetTimer();
   }
 }
