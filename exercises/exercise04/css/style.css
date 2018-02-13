@@ -8,28 +8,45 @@ Some description of the CSS styling
 
 */
 
-html, body {
-height: 100%;
-width: 100%
+body {
+  width: 100%;
+  width: 100%;
 }
 
-.email {
+#email {
   position: absolute;
-  height:80%;
+  height:100%;
   width:auto;
-  display: block;
   z-index: -1;
 }
-
-
-button {
+#finalImage {
   position: absolute;
-  height: 140px;
-  width: 400px;
+  height: 90%;
   width: auto;
-  font-size: 90px;
-  bottom: 20%;
-  color: red;
+  z-index: +100
 }
 
+.futureImages {
+  max-width: 500px;
+  width: auto;
+}
+
+p {
+  position: absolute;
+  font-family: helvetica;
+  font-size: 60px;
+  color: blue;
+  top: 45%;
+  margin-left: 35%;
+  z-index: +101;
+
+}
+button {
+  position: absolute;
+  height: 12%;
+  width: auto;
+  width: auto;
+  font-size: 70px;
+  bottom: 20%;
+  color: red;
 }
