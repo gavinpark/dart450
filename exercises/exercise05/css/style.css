@@ -8,32 +8,30 @@ Some description of the CSS styling
 
 */
 
-/* body {
+body {
   background-color: black;
 
 }
 
-div{
-  padding: 40px
+div, button {
+  margin: 20px;
 }
+
 
 #intro {
   color: antiquewhite;
-  font-size: 20px;
-  font-family: arial;
+  font-size: 40px;
   line-height: 1.5;
-
-
-
 }
 
 button {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   background-color: red;
-
+  font-size: 20px;
 }
 
-#button01 {
-  font-size: 14px;
-} */
+.messageText {
+color: antiquewhite;
+font-size: 40px;
+}
