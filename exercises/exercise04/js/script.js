@@ -38,6 +38,7 @@ $(document).ready(function () {
   }, 1500);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       setInterval(function() {
            $('.futureImages').each(function(){
              var randomX = Math.random() * $(window).width();
@@ -49,6 +50,8 @@ $(document).ready(function () {
              });
            });
          }, 1600);
+=======
+>>>>>>> f1c5289abc2f96a5973cd129d75d75ee2a7d43cd
 =======
 >>>>>>> f1c5289abc2f96a5973cd129d75d75ee2a7d43cd
 
