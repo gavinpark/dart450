@@ -10,6 +10,17 @@ Description of what the script does...
 
 $(document).ready(function () {
 
-  // Insert jQuery code here to run when the page is loaded
+if ($(window).width() < 400) {
+$('body').css({backgroundColor: 'blue'});
+}
+
+else if ($(window).width() <600) {
+  $('body').css({backgroundColor:'green'});
+}
+else {
+  $('body').css({backgroundColor: 'yellow'});
+
+
+};
 
 });
