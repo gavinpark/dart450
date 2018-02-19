@@ -17,9 +17,12 @@ var goodDogs = 0;
 $(document).ready(function () {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   // Insert jQuery code here to run when the page is loaded
 var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
 =======
+=======
+>>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
   $('#goodDogs').text(goodDogs);
 
   setInterval(tick,1000);
@@ -37,6 +40,9 @@ var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
 
     }
   });
+<<<<<<< HEAD
+>>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
+=======
 >>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
 });
 

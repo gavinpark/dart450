@@ -20,6 +20,7 @@ div, button {
   font-family: helvetica;
   color: antiquewhite;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 20px;
   font-family: arial;
   line-height: 1.5;
@@ -38,6 +39,12 @@ div, button {
   line-height: 1.25;
 }
 
+=======
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+>>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
 button {
 
   width: 100px;
@@ -52,4 +59,7 @@ font-family: helvetica;
 color: antiquewhite;
 font-size: 60px;
 }
+<<<<<<< HEAD
+>>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
+=======
 >>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6
