@@ -8,32 +8,48 @@ Some description of the CSS styling
 
 */
 
-/* body {
+body {
   background-color: black;
 
 }
-
-div{
-  padding: 40px
+div, button {
+  margin-top: 20px;
 }
 
 #intro {
+  font-family: helvetica;
   color: antiquewhite;
+<<<<<<< HEAD
   font-size: 20px;
   font-family: arial;
   line-height: 1.5;
 
-
-
 }
 
-button {
+
+#button01 {
   width: 300px;
   height: 300px;
   background-color: red;
-
+  font-size: 40px;
+}
+=======
+  font-size: 30px;
+  line-height: 1.25;
 }
 
-#button01 {
-  font-size: 14px;
-} */
+button {
+
+  width: 100px;
+  height: 100px;
+  font-family: helvetica;
+  background-color: red;
+  font-size: 20px;
+}
+
+.messageText {
+font-family: helvetica;
+color: antiquewhite;
+font-size: 60px;
+}
+>>>>>>> 0cf53446c73439330f3271ff8c3f04278b82a2f6

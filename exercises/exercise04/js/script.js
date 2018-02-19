@@ -37,24 +37,4 @@ $(document).ready(function () {
     });
   }, 1500);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-      setInterval(function() {
-           $('.futureImages').each(function(){
-             var randomX = Math.random() * $(window).width();
-             var randomY = Math.random() * $(window).height();
-             $(this).css({
-               position: 'absolute',
-               top: randomY,
-               left: randomX
-             });
-           });
-         }, 1600);
-=======
->>>>>>> f1c5289abc2f96a5973cd129d75d75ee2a7d43cd
-=======
->>>>>>> f1c5289abc2f96a5973cd129d75d75ee2a7d43cd
-
-
-
 });
