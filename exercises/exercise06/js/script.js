@@ -17,6 +17,6 @@ $('#seriousText').blast({
 
 function fadeToPink () {
   $(this).animate({
-      font-color: 'pink',
+      background-color: 'pink',
   },1000);
 }
