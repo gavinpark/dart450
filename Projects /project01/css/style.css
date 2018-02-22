@@ -9,8 +9,8 @@ Some basic styling
 
 /* We have this here just to point out that EVERYTHING
 we run through .blast() ends up with this class. */
-.blast {
-
+body {
+  overflow: hidden;
 }
 
 h1 {
