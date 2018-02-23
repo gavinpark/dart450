@@ -26,25 +26,25 @@ $(document).ready(function() {
 
   var now = new Date();
   var hour = now.getHours();
-  if(hour>9 && hour<24){
+  if(hour>9 && hour<10){
     fallingLetters();
   }
 
-  // $('#header02').hide();
-  //
-  // var now = new Date();
-  // var hour = now.getHours();
-  // if(hour>9 && hour<24){
-  //   fallingLetters();
-  // }
-  //
-  // $('#header03').hide();
-  //
-  // var now = new Date();
-  // var hour = now.getHours();
-  // if(hour>9 && hour<24){
-  //   riseFromBelow();
-  // }
+  $('#header02').hide();
+
+  var now = new Date();
+  var hour = now.getHours();
+  if(hour>9 && hour<24){
+    wordFadeIn();
+  }
+
+  $('#header03').hide();
+
+  var now = new Date();
+  var hour = now.getHours();
+  if(hour>9 && hour<24){
+    riseFromBelow();
+  }
 
 
 });
@@ -90,17 +90,29 @@ function animateToRandomLocation () {
 
 }
 
+function wordFadeIn(){
+  $('#header02').blast({
+    delimiter:'word'
+  }).mouseover(fadeIn)
+
+}
+
+function fadeIn(){
+  $(this).show()
+
+}
+
 // This function shows header03
-// function riseFromBelow(){
-//   $('#header03').show();
-// // Calling .blast() to our header01 element and separating the phare by letter.
-//   $('#header03').blast({
-//   delimiter:'word'
-// }).mouseover(sendToMiddle)
-// }
-//
-// function sendToMiddle(){
-//   $(this).css({
-//     bottom:0
-//   });
-// }
+function riseFromBelow(){
+  $('#header03').show();
+// Calling .blast() to our header01 element and separating the phare by letter.
+  $('#header03').blast({
+  delimiter:'character'
+}).mouseover(sendToMiddle)
+}
+
+function sendToMiddle(){
+  $(this).css({
+    bottom:0
+  });
+}

@@ -9,13 +9,17 @@ Some basic styling
 
 /* We have this here just to point out that EVERYTHING
 we run through .blast() ends up with this class. */
-body {
+html, body {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
 
-text-align: left;
+width: 100%;
 font-size: 100px;
+text-align: justify;
+text-justify: inter-word;
 font-family: helvetica;
 }
