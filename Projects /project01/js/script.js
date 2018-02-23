@@ -6,9 +6,9 @@ Gavin Park
 
 */
 
-var backgroundFadeTime = 1000;
+var backgroundFadeTime = 3000;
 var currentBackgroundColor = 0;
-var backgroundColors = {}
+var backgroundColors = ['#F8F8F8','#F0F0F0','#DCDCDC','#D3D3D3','#C8C8C8','BEBEBE','#B0B0B0','#A8A8A8','#989898','#888888','#787878','#696969','#606060','#505050','#404040','#303030','#202020','#101010'	]
 
 $(document).ready(function() {
 
@@ -20,26 +20,34 @@ $(document).ready(function() {
   setInterval(fadeBackground,backgroundFadeTime);
 
 // This lets each header appear at different times of the day.
+// For the purposed of editing this code, the times are not currently set.
+
   $('#header01').hide();
 
   var now = new Date();
   var hour = now.getHours();
-  if(hour>10 && hour<15){
+  if(hour>9 && hour<24){
     fallingLetters();
   }
+
+  // $('#header02').hide();
+  //
+  // var now = new Date();
+  // var hour = now.getHours();
+  // if(hour>9 && hour<24){
+  //   fallingLetters();
+  // }
+  //
+  // $('#header03').hide();
+  //
+  // var now = new Date();
+  // var hour = now.getHours();
+  // if(hour>9 && hour<24){
+  //   riseFromBelow();
+  // }
+
+
 });
-
-// // Calling .blast() to our header02 element and separating the phrase by word
-//   $ ('#header02') .blast({
-//     delimiter: 'word'
-//   }).mouseover(animateFadeIn)
-// // Calling .blast() to our header03 element and treating the whole phrase as one
-//   $ ('#header03') .blast({
-//     delimiter: 'sentance'
-//   }).mouseover(animateComeUp)
-//
-// } );
-
 
 
 function fallingLetters(){
@@ -79,25 +87,20 @@ function animateToRandomLocation () {
       left:0,
     }, 4000);
   });
+
 }
 
-
-// function animateFadeIn () {
-//
-// // This animation fades out each letter over 1.5 seconds
-// $(this).animate({
-//   opacity: '0',
-// }, 1500,)
-//
-// // This animation fades in each letter after 3 seconds
-// $(this).animate({
-//   opacity: '1',
-// }, 2000);
-//
+// This function shows header03
+// function riseFromBelow(){
+//   $('#header03').show();
+// // Calling .blast() to our header01 element and separating the phare by letter.
+//   $('#header03').blast({
+//   delimiter:'word'
+// }).mouseover(sendToMiddle)
 // }
 //
-// function animateComeUp () {
-//
-//
-//
+// function sendToMiddle(){
+//   $(this).css({
+//     bottom:0
+//   });
 // }
