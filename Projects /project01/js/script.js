@@ -7,9 +7,9 @@ Gavin Park
 */
 type="text/javascript"
 
-var backgroundFadeTime = 3000;
+var backgroundFadeTime = 30000;
 var currentBackgroundColor = 0;
-var backgroundColors = ['	#D29B24','#EBEAEF','#E9809F','#202344','#0E3D29','797EB3','#E54B30']
+var backgroundColors = ['	#D29B24', '#E9809F','#202344','#0E3D29','797EB3','#E54B30']
 
 $(document).ready(function() {
 
