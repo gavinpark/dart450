@@ -9,7 +9,7 @@ type="text/javascript"
 
 var backgroundFadeTime = 3000;
 var currentBackgroundColor = 0;
-var backgroundColors = ['#F8F8F8','#F0F0F0','#DCDCDC','#D3D3D3','#C8C8C8','BEBEBE','#B0B0B0','#A8A8A8','#989898','#888888','#787878']
+var backgroundColors = ['	#D29B24','#EBEAEF','#E9809F','#202344','#0E3D29','797EB3','#E54B30']
 
 $(document).ready(function() {
 
@@ -31,6 +31,13 @@ $(document).ready(function() {
     fallingLetters();
   }
 
+  $('#header02').hide();
+
+  var now = new Date();
+  var hour = now.getHours();
+  if(hour>=0 && hour<24){
+    lettersFadeIn();
+  }
 
 });
 
@@ -73,4 +80,16 @@ function animateToRandomLocation () {
     }, 4000);
   });
 
+}
+
+function lettersFadeIn(){
+  $('#header02').show();
+  // Calling .blast() to our header01 element and separating the phare by letter.
+  $('#header02').blast({
+    delimiter:'character'
+  }).mouseover(fadeIn)
+}
+
+function fadeIn(){
+  $(this).fadeIn()
 }
