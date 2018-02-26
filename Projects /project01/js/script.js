@@ -30,21 +30,30 @@ $(document).ready(function() {
     fallingLetters();
   }
 
-  $('#header02').hide();
+  $('#remember').hide();
 
   var now = new Date();
   var hour = now.getHours();
   if(hour>=0 && hour<24){
-    wordFadeIn();
+    $('#remember').show();
   }
 
-  $('#header03').hide();
 
-  var now = new Date();
-  var hour = now.getHours();
-  if(hour>=0 && hour<24){
-    riseFromBelow();
-  }
+  // $('#header02').hide();
+  //
+  // var now = new Date();
+  // var hour = now.getHours();
+  // if(hour>=0 && hour<24){
+  //   fadeInByWord();
+  // }
+
+  // $('#header03').hide();
+  //
+  // var now = new Date();
+  // var hour = now.getHours();
+  // if(hour>=0 && hour<24){
+  //   riseFromBelow();
+  // }
 
 
 });
@@ -89,46 +98,58 @@ function animateToRandomLocation () {
   });
 
 }
+
+
 // This function will to let header02 appear during certain hours of the day.
 // I would like to have it initally be invisible and then fade in on mouseover.
-function wordFadeIn(){
-  $('#header02').show();
-  // This makes the starting opacity of the text invisible and location relative.
-  $(this).css({
-    opacity: '1'
-  });
+
+// function fadeInByWord(){
+//   $('#header01').show();
+//   // Calling .blast() to our header01 element and separating the phare by letter.
+//   $('#header01').blast({
+//     delimiter:'character'
+//   }).mouseover(wordFadeIn)
+// }
+//
+// function wordFadeIn () {
+//   // Setting the position to be relative keeps the original position of each letter.
+//   $(this).css({
+//     position: 'fixed'
+//   });
+//
+//   // This animation sends each letter to a random location on the bottom of the page
+//   $(this).fadeIn(
+//     "slow");
+//
+// }
+
+
+
+
   // This breaks the header by letter and calls the function fadeIn with mouseover
-  $('#header02').blast({
-    delimiter:'character'
-  }).mouseover(fadeIn)
-}
+
 
 // This brings the opacity of each span to 1 over a period of 3 secons
-function fadeIn(){
-  $(this).animate({
-    opactiy: '1'
-  }, 3000);
-}
+
 
 
 
 // This function will show header03 at certain hours of the day.
 // I would like to have it start aligned to the bottom of the page and then each letter floats to the middle of the screen on mouseover.
 
-function riseFromBelow(){
-  $('#header03').show();
-// This sets the header at the bottom of the page
-  $(this).css({
-    bottom:'0'
-  });
-  // This breaks the header by letter and calls the function fadeIn with mouseover
-  $('#header03').blast({
-    delimiter:'character'
-  }).mouseover(sendToMiddle)
-}
-// This sends each letter to the centre of the page
-function sendToMiddle(){
-  $(this).css({
-    top:'50%'
-  });
-}
+// function riseFromBelow(){
+//   $('#header03').show();
+// // This sets the header at the bottom of the page
+//   $(this).css({
+//     bottom:'0'
+//   });
+//   // This breaks the header by letter and calls the function fadeIn with mouseover
+//   $('#header03').blast({
+//     delimiter:'character'
+//   }).mouseover(sendToMiddle)
+// }
+// // This sends each letter to the centre of the page
+// function sendToMiddle(){
+//   $(this).fadeIn("slow", function()
+//   });
+// }
