@@ -9,34 +9,54 @@ Description of what the script does...
 **********************************************/
 type="text/javascript"
 
+// This sets how long between each colour transition
 var backgroundFadeTime = 30000;
+// This sets the initial background colour in the array
 var currentBackgroundColor = 0;
+// This is the array of colours that will appear in the background
 var backgroundColors = ['#D29B24','#E9809F','#202344','#0E3D29','#797EB3','#E5B30']
 
 $(document).ready(function () {
 
-  //This calls a different colour after each 10 second interval.
+  //This sets the starting background colour to the first in the array.
   $('body').css({
     backgroundColor: backgroundColors[currentBackgroundColor]
   });
   fadeBackground();
   setInterval(fadeBackground,backgroundFadeTime);
 
-  // Insert jQuery code here to run when the page is loaded
-  // This puts a span around each letter
-  $('#header01').blast({
-    delimiter:'character'
-    //This calls the function animateToRandomLocation when the cursor rolls over each letter
-  }).mouseover(animateToRandomLocation);
+// PRIMARY FUNCTIONS //
 
-  // This puts a span around each word
-  $('#header02').blast({
-    delimiter:'word'
-  }).mouseover(wordsFadeOut);
+  $('#header01').hide();
 
-  $('#header03').blast({
-    delimiter:'character'
-  }).mouseover(wordsFloat);
+var now = new Date();
+var hour = now.getHours();
+if(hour>=0 && hour<20){
+  dispurse();
+};
+
+$('#header02').hide();
+
+var now = new Date();
+var hour = now.getHours();
+if(hour>=0 && hour<20){
+disappear();
+};
+
+$('#header03').hide();
+
+var now = new Date();
+var hour = now.getHours();
+if(hour>=0 && hour<20){
+rise();
+}
+
+
+
+
+
+
+
 
 });
 
@@ -49,6 +69,30 @@ function fadeBackground(){
     backgroundColor:backgroundColors[currentBackgroundColor]
   },backgroundFadeTime)
 }
+
+// This puts a span around each letter
+function dispurse(){
+$('#header01').show();
+$('#header01').blast({
+  delimiter:'character'
+  //This calls the function animateToRandomLocation when the cursor rolls over each letter
+}).mouseover(animateToRandomLocation);
+};
+
+function disappear(){
+$('#header02').show();
+$('#header02').blast({
+  delimiter:'word'
+}).mouseover(wordsFadeOut);
+};
+
+
+  function rise(){
+  $('#header03').show();
+  $('#header03').blast({
+    delimiter:'character'
+  }).mouseover(wordsFloat);
+};
 
 function animateToRandomLocation () {
   var x = Math.floor(Math.random() * $(window).width());
@@ -71,8 +115,8 @@ function animateToRandomLocation () {
 }
 
 function wordsFadeOut () {
-  $(this).fadeTo(1800,0.04)
-  $(this).fadeTo(18000,1)
+  $(this).fadeTo(2000,0.04)
+  $(this).fadeTo(1600,1)
 }
 
 function wordsFloat () {
