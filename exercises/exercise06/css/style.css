@@ -11,17 +11,7 @@ Some basic styling
 we run through .blast() ends up with this class. */
 
 
-
-div {
-  margin: 20px;
-  font-size: 30px
-}
-
-
-a, a:hover, a:visited {
-  color: #000;
-  text-decoration: underline;
-}
-.blast {
-  background-color: #ccc;
+header {
+  font-size: 100px;
+  padding-left: 40px;
 }
