@@ -15,7 +15,9 @@ html, body {
 }
 
 h1 {
+  padding-left: 30px;
+  padding-right: 30px;
   color: antiquewhite;
   font-size: 80px;
-  font-family: "proxima-soft";
+  font-family: "proxima-soft", light;
 }
