@@ -7,16 +7,29 @@ Gavin Park
 Description of what the script does...
 
 **********************************************/
+type="text/javascript"
+
+var backgroundFadeTime = 30000;
+var currentBackgroundColor = 0;
+var backgroundColors = ['#D29B24','#E9809F','#202344','#0E3D29','#797EB3','#E5B30']
 
 $(document).ready(function () {
 
-  // Insert jQuery code here to run when the page is loaded
+  //This calls a different colour after each 10 second interval.
+  $('body').css({
+    backgroundColor: backgroundColors[currentBackgroundColor]
+  });
+  fadeBackground();
+  setInterval(fadeBackground,backgroundFadeTime);
 
+  // Insert jQuery code here to run when the page is loaded
+  // This puts a span around each letter
   $('#header01').blast({
     delimiter:'character'
+    //This calls the function animateToRandomLocation when the cursor rolls over each letter
   }).mouseover(animateToRandomLocation);
 
-
+  // This puts a span around each word
   $('#header02').blast({
     delimiter:'word'
   }).mouseover(wordsFadeOut);
@@ -26,6 +39,16 @@ $(document).ready(function () {
   }).mouseover(wordsFloat);
 
 });
+
+function fadeBackground(){
+  currentBackgroundColor=currentBackgroundColor+1;
+  if (currentBackgroundColor >= backgroundColors.length){
+    currentBackgroundColor = 0;
+  }
+  $('body').animate({
+    backgroundColor:backgroundColors[currentBackgroundColor]
+  },backgroundFadeTime)
+}
 
 function animateToRandomLocation () {
   var x = Math.floor(Math.random() * $(window).width());
@@ -38,8 +61,8 @@ function animateToRandomLocation () {
   // This animation sends each letter to a random location on the bottom of the page
   $(this).animate({
     left: x+'px',
-    top:'2000px'
-  }, 3000, function(){
+    top:'1600px'
+  }, 2500, function(){
     $(this).animate({
       top:0,
       left:0,

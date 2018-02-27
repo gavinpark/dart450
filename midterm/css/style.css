@@ -15,5 +15,7 @@ html, body {
 }
 
 h1 {
+  color: antiquewhite;
   font-size: 80px;
+  font-family: "proxima-soft";
 }
