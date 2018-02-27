@@ -20,9 +20,10 @@ $(document).ready(function () {
   $('#header02').blast({
     delimiter:'word'
   }).mouseover(wordsFadeOut);
-  // $("#header02").mouseover(function(){
-  //         $("#header02").fadeTo(5000, 0.01);
-  //     });
+
+  $('#header03').blast({
+    delimiter:'character'
+  }).mouseover(wordsFloat);
 
 });
 
@@ -49,4 +50,16 @@ function animateToRandomLocation () {
 function wordsFadeOut () {
   $(this).fadeTo(1800,0.04)
   $(this).fadeTo(18000,1)
+}
+
+function wordsFloat () {
+  $(this).css({
+    position:'relative'
+  });
+  $(this).animate({
+    top: '-80px'
+  });
+  $(this).animate({
+    top:'0'
+  });
 }
