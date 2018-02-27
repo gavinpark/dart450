@@ -128,9 +128,9 @@ function animateToRandomLocation () {
 // This function makes each word fade in and out on mouseover
 function wordsFadeOut () {
   // This fades to an opactiy of 4% over 2.3 seconds
-  $(this).fadeTo(2300,0.04)
+  $(this).fadeTo(3000,0.04)
   // This fades back to an opacty of 100% over 2 seconds
-  $(this).fadeTo(2000,1)
+  $(this).fadeTo(3400,1)
 }
 
 
