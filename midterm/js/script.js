@@ -14,7 +14,7 @@ var backgroundFadeTime = 30000;
 // This sets the initial background colour in the array
 var currentBackgroundColor = 0;
 // This is the array of colours that will appear in the background
-var backgroundColors = ['#444F3F','#4A4643','#272430','#373740','#282D40','#FA6648']
+var backgroundColors = ['#444F3F','#4A4643','#A37300','#272430','#373740','#282D40','#FA6648']
 
 $(document).ready(function () {
 
@@ -32,7 +32,8 @@ $(document).ready(function () {
   var now = new Date();
   var hour = now.getHours();
   // This tells each header when it is supposed to appear on the page and calls its function
-  if(hour>=14 && hour<24){
+  // This header will appear between 4pm and midnight
+  if(hour>=16 && hour<24){
     dispurse();
   };
 
@@ -41,7 +42,8 @@ $(document).ready(function () {
 
   var now = new Date();
   var hour = now.getHours();
-  if(hour>=8 && hour<13){
+  // This header will appear between 8am and 3pm
+  if(hour>=8 && hour<15){
     disappear();
   };
 
@@ -50,6 +52,7 @@ $(document).ready(function () {
 
   var now = new Date();
   var hour = now.getHours();
+  // This header will appear between midnight and 7am
   if(hour>=0 && hour<7){
     rise();
   }
