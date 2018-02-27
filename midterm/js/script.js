@@ -48,4 +48,5 @@ function animateToRandomLocation () {
 
 function wordsFadeOut () {
   $(this).fadeTo(1800,0.04)
+  $(this).fadeTo(18000,1)
 }
