@@ -31,13 +31,13 @@ $(document).ready(function() {
     fallingLetters();
   }
 
-  $('#header02').hide();
-
-  var now = new Date();
-  var hour = now.getHours();
-  if(hour>=0 && hour<24){
-    lettersFadeIn();
-  }
+  // $('#header02').hide();
+  //
+  // var now = new Date();
+  // var hour = now.getHours();
+  // if(hour>=0 && hour<24){
+  //   lettersFadeIn();
+  // }
 
 });
 
@@ -81,15 +81,15 @@ function animateToRandomLocation () {
   });
 
 }
-
-function lettersFadeIn(){
-  $('#header02').show();
-  // Calling .blast() to our header01 element and separating the phare by letter.
-  $('#header02').blast({
-    delimiter:'character'
-  }).mouseover(fadeIn)
-}
-
-function fadeIn(){
-  $(this).fadeIn()
-}
+//
+// function lettersFadeIn(){
+//   $('#header02').show();
+//   // Calling .blast() to our header01 element and separating the phare by letter.
+//   $('#header02').blast({
+//     delimiter:'character'
+//   }).mouseover(fadeIn)
+// }
+//
+// function fadeIn(){
+//   $(this).fadeIn()
+// }
