@@ -14,11 +14,15 @@ $(document).ready(function () {
 
   $('#header01').blast({
     delimiter:'character'
-  }).mouseover(animateToRandomLocation)
+  }).mouseover(animateToRandomLocation);
 
-  $("#header02").click(function(){
-          $("#header02").fadeTo(1000, 0.4);
-      });
+
+  $('#header02').blast({
+    delimiter:'word'
+  }).mouseover(wordsFadeOut);
+  // $("#header02").mouseover(function(){
+  //         $("#header02").fadeTo(5000, 0.01);
+  //     });
 
 });
 
@@ -40,4 +44,8 @@ function animateToRandomLocation () {
       left:0,
     }, 4000);
   });
+}
+
+function wordsFadeOut () {
+  $(this).fadeTo(1800,0.04)
 }
