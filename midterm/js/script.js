@@ -15,9 +15,12 @@ $(document).ready(function () {
   $('#header01').blast({
     delimiter:'character'
   }).mouseover(animateToRandomLocation)
+
+  $("#header02").click(function(){
+          $("#header02").fadeTo(1000, 0.4);
+      });
+
 });
-
-
 
 function animateToRandomLocation () {
   var x = Math.floor(Math.random() * $(window).width());
@@ -37,5 +40,4 @@ function animateToRandomLocation () {
       left:0,
     }, 4000);
   });
-
 }
