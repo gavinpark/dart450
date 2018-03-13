@@ -17,6 +17,13 @@ $('#seriousText').blast({
 
 function fadeToPink () {
   $(this).animate({
-      background-color: 'pink',
-  },1000);
+      color: '#DA70D6	',
+  },800);
+  $(this).css({
+    'font-family':'comic sans MS'
+  });
+  $(this).animate({
+    color: 'blue',
+  }, 600);
+
 }

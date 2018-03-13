@@ -33,7 +33,7 @@ $(document).ready(function () {
   var hour = now.getHours();
   // This tells each header when it is supposed to appear on the page and calls its function
   // This header will appear between 4pm and midnight
-  if(hour>=16 && hour<24){
+  if(hour>=15 && hour<24){
     dispurse();
   };
 
@@ -53,7 +53,7 @@ $(document).ready(function () {
   var now = new Date();
   var hour = now.getHours();
   // This header will appear between midnight and 7am
-  if(hour>=0 && hour<7){
+  if(hour>=0 && hour<8){
     rise();
   }
 });
