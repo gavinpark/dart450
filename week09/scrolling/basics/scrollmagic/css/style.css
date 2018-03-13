@@ -1,0 +1,22 @@
+/*
+
+ScrollMagic with Events
+Pippin Barr
+
+Basic styling of our progress text and our trigger div
+
+*/
+
+
+#trigger {
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  margin-top: 10%;
+  margin-bottom: 100%;
+  background-color: lightgrey;
+
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+}
