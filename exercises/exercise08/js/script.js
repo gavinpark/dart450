@@ -42,10 +42,10 @@ window.onscroll = function(){
 
 function disappear() {
   if (checkScrollSpeed>10){
-    $('#paragraph').hide();
+    $('#paragraph').css({
+      "opacity": '0',
+    });
   };
 }
-
-console.log(disappear());
 
 });
