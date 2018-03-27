@@ -22,5 +22,34 @@ $(document).ready(function () {
     $('#welcomeMessage').text(inputName);
   });
 
+  $(document).keydown(function(keyPressed) {
+   if (keyPressed.keyCode == 68) {
+     $("h1").css("background-color","red");
+   }
+   if (keyPressed.keyCode == 70) {
+     $("h1").css({
+     "font-size": '50px'
+   });
+   }
+   if (keyPressed.keyCode == 71) {
+     $("h1").css({
+       "color": 'blue'
+     });
+   }
+   if (keyPressed.keyCode == 65) {
+     $("h1").css({
+       "color": 'antiquewhite'
+     });
+   }
+
+   if (keyPressed.keyCode == 83) {
+     $("h1").css({
+      "text-decoration-style": 'wavy'
+     });
+   }
+
+
+  });
+
 
 });
