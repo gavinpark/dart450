@@ -1,15 +1,9 @@
 /**********************************************
 
 DART 450, Winter 2018
-Waypoints
-Pippin Barr
+Exercise 08
+Gavin Park
 
-Basic example of using the Waypoints scrolling library
-
-Uses:
-
-Waypoints
-http://imakewebthings.com/waypoints
 
 **********************************************/
 
@@ -44,4 +38,14 @@ $(document).ready(function () {
 window.onscroll = function(){
   console.log( checkScrollSpeed() );
 };
+
+
+function disappear() {
+  if (checkScrollSpeed>10){
+    $('#paragraph').hide();
+  };
+}
+
+console.log(disappear());
+
 });
