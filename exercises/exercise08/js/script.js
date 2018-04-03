@@ -7,48 +7,46 @@ Gavin Park
 
 **********************************************/
 
+var lastScrollY = 0;
+var lastScrollAmount = 0;
+
 $(document).ready(function () {
 
-  var checkScrollSpeed = (function(settings){
-    settings = settings || {};
+  setInterval(function () {
+    lastScrollAmount = Math.abs(window.scrollY - lastScrollY);
+    lastScrollY = window.scrollY;
+    disappear();
 
-    var lastPos, newPos, timer, delta,
-        delay = settings.delay || 50; // in "ms" (higher means lower fidelity )
+  },50);
 
-    function clear() {
-      lastPos = null;
-      delta = 0;
-    }
-
-    clear();
-
-    return function(){
-      newPos = window.scrollY;
-      if ( lastPos != null ){ // && newPos < maxScroll
-        delta = newPos -  lastPos;
-      }
-      lastPos = newPos;
-      clearTimeout(timer);
-      timer = setTimeout(clear, delay);
-      return delta;
-    };
-});
-
-
-
-// listen to "scroll" event
-window.onscroll = function(){
-  console.log( checkScrollSpeed() );
-  disappear();
-};
-
-
-function disappear() {
-  if (checkScrollSpeed()>10){
-    $('#paragraph').css({
-      "opacity": '0',
-    });
+  window.onscroll = function(){
+    // console.log( checkScrollSpeed() );
+    // disappear();
   };
-}
 
+
+  function disappear() {
+    var opacity = $('#paragraph').css('opacity');
+    // console.log(opacity);
+    // if (opacity == 0 || opacity == 1) {
+
+      if (lastScrollAmount > 25 && opacity == 1){
+        console.log("Animating to 0");
+        $('#paragraph').animate({
+          "opacity": 0,
+        }, 100);
+      } else if (lastScrollAmount <= 25 && opacity == 0) {
+        console.log("Animating to 1");
+        $('#paragraph').css({
+          "opacity": 0.000000001
+        })
+        setTimeout (function(){
+          $('#paragraph').animate({
+            "opacity": 1,
+          }, 3300);
+        },1000)
+
+      }
+  // }
+  }
 });
