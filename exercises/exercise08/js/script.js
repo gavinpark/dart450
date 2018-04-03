@@ -32,7 +32,7 @@ $(document).ready(function () {
       timer = setTimeout(clear, delay);
       return delta;
     };
-})();
+});
 
 
 
@@ -50,3 +50,5 @@ function disappear() {
     });
   };
 }
+
+});
