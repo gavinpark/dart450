@@ -10,15 +10,16 @@ Some description of the CSS styling
 
 body {
   height: 100%;
-  padding: 30px;
 }
 
 div {
   position: absolute;
-  padding: 20px;
-  width: 80%;
-  top: 80px;
+}
+
+#paragraph {
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 1000px;
   font-size: 70px;
-  color: white;
-  background-color: green;
+  color: lightblue;
 }

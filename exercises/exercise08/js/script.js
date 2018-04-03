@@ -20,15 +20,12 @@ $(document).ready(function () {
   },50);
 
   window.onscroll = function(){
-    // console.log( checkScrollSpeed() );
-    // disappear();
   };
 
 
   function disappear() {
     var opacity = $('#paragraph').css('opacity');
     // console.log(opacity);
-    // if (opacity == 0 || opacity == 1) {
 
       if (lastScrollAmount > 25 && opacity == 1){
         console.log("Animating to 0");
@@ -38,12 +35,12 @@ $(document).ready(function () {
       } else if (lastScrollAmount <= 25 && opacity == 0) {
         console.log("Animating to 1");
         $('#paragraph').css({
-          "opacity": 0.000000001
+          "opacity": 0.01,
         })
         setTimeout (function(){
           $('#paragraph').animate({
             "opacity": 1,
-          }, 3300);
+          }, 1500);
         },1000)
 
       }
