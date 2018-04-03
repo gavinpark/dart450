@@ -34,18 +34,19 @@ $(document).ready(function () {
     };
 })();
 
+
+
 // listen to "scroll" event
 window.onscroll = function(){
   console.log( checkScrollSpeed() );
+  disappear();
 };
 
 
 function disappear() {
-  if (checkScrollSpeed>10){
+  if (checkScrollSpeed()>10){
     $('#paragraph').css({
       "opacity": '0',
     });
   };
 }
-
-});
