@@ -12,7 +12,10 @@ Some description of the CSS styling
     height: 100px; width: 100px;
     border-radius: 50px;
     background: lightblue;
-    /* -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 30px white; */
+
   }
+
+h1 {
+  size: 100px;
+  color: purple;
+}
