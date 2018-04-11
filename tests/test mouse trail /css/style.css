@@ -1,0 +1,21 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 100px; width: 100px;
+    border-radius: 50px;
+    background: lightblue;
+
+  }
+
+h1 {
+  size: 100px;
+  color: purple;
+}
