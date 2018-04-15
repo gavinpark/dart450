@@ -1,0 +1,27 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+.box {
+  background: lightblue;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  transition: transform 1s linear;
+  transform-origin: center;
+  transform-style: preserve-3D;
+}
+
+.box-rotate {
+  transform: rotate(360deg);
+}
+
+button {
+  display: block;
+  margin: auto;
+}
