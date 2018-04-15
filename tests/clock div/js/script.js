@@ -10,18 +10,24 @@ Gavin Park
 
 $(document).ready(function () {
 
-  // This pulls the current date and time
+  var rotation = 0;
   var now = new Date();
   var hour = now.getHours();
 
-  if (hour>=23 && hour<24){
-    tilt();
+  jQuery.fn.wrapper = function(degrees) {
+      $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
+                   '-moz-transform' : 'rotate('+ degrees +'deg)',
+                   '-ms-transform' : 'rotate('+ degrees +'deg)',
+                   'transform' : 'rotate('+ degrees +'deg)'});
   };
 
+  $('.wrapper').click(function() {
+      if (hour>=23 && hour>24){}
+      rotation += 5;
+      $(this).wrapper(rotation);
   });
-
-function tilt(){
-  $('#box').css({
-    transform: rotate ("12deg"),
-  })
-}
+});
+// function getTime(){
+//   $
+// }
+//   });

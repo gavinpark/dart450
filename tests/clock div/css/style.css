@@ -7,21 +7,33 @@ Author
 Some description of the CSS styling
 
 */
-#box {
-  background: lightblue;
-  width: 200px;
-  height: 200px;
-  margin: 20px auto;
-  transition: transform 1s linear;
-  transform-origin: center;
-  transform-style: preserve-3D;
+.wrapper {
+    padding: 10px;
+    background: #F02311;
+    color: #FFF;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    font: normal 1em Arial;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-#box-rotate {
-  transform: rotate(360deg);
+#title {
+
+  font-size: 32px;
+  color: black;
+
 }
 
-button {
-  display: block;
-  margin: auto;
+.section {
+  clear:left;
+  float: left;
+  width: 25%;
+  height: 30px;
+  bottom: 0;
+}
 }
