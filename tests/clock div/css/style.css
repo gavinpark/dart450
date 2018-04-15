@@ -7,7 +7,7 @@ Author
 Some description of the CSS styling
 
 */
-.box {
+#box {
   background: lightblue;
   width: 200px;
   height: 200px;
@@ -17,7 +17,7 @@ Some description of the CSS styling
   transform-style: preserve-3D;
 }
 
-.box-rotate {
+#box-rotate {
   transform: rotate(360deg);
 }
 

@@ -14,10 +14,14 @@ $(document).ready(function () {
   var now = new Date();
   var hour = now.getHours();
 
-  $('button').click(function () {
-
-    $('.box').toggleClass('box-rotate');
+  if (hour>=23 && hour<24){
+    tilt();
+  };
 
   });
 
-});
+function tilt(){
+  $('#box').css({
+    transform: rotate ("12deg"),
+  })
+}
