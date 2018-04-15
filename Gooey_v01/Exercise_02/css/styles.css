@@ -1,0 +1,52 @@
+
+/* CSS Document */
+
+
+h1 {
+	
+	font-size: 150px;
+	color:#A55742;
+	font-family:  Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-transform: uppercase;
+	background-color: #242428
+}
+
+
+h2, h3 {
+	font-size: 28px;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, "sans-serif";
+	color: #1C161D;
+	font-style: oblique;
+	
+}
+
+p {
+	
+	font-size: 14px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 16px;
+	
+}
+
+/*-----LINKS------*/
+a:link {
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-transform: uppercase;
+	font-size: 21px;
+	color: #C28A3A;
+	text-decoration:overline;
+	
+	
+}
+
+a:hover {
+	color:#775526;
+	text-decoration: underline;
+	
+}
+
+a:active {
+	
+	color: #E0C298;
+}

@@ -1,0 +1,25 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+  height: 100%;
+}
+
+div {
+  position: absolute;
+}
+
+#paragraph {
+  padding-top: 100px;
+  padding-left: 100px;
+  width: 1000px;
+  font-size: 70px;
+  color: lightblue;
+}

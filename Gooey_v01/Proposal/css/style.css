@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Oswald:300');
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background: black;
+}
+/* NAVIGATION BAR STUFF */
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+	position:fixed;
+	z-index: 1000;
+	width:100%;
+
+}
+nav {
+	display:center;
+	margin: 0 auto 0 auto;
+}
+
+nav li {
+    padding-left:10px;
+	padding-right:10px;
+	display:inline-block;	
+}
+
+nav a {
+  
+    color: white;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+nav.center ul{
+	text-align: center;
+}
+
+li a:hover {
+    color: #ECB700;
+
+}
+
+
+/* FIXED INFO */
+
+h3 {
+	
+	margin: 20px;
+	text-align: center;
+	padding-left: 14px 16px;
+	background-color: transparent;
+	position: fixed;
+	bottom: 0;
+	float: right;
+	z-index: 1000;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+	font-size: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+
+}
+
+h4 {
+	
+	
+	margin: 20px;
+	padding: 14px 16px;
+	background-color: transparent;
+	position: fixed;
+	bottom: 0;
+	left: -20px;
+	z-index: 1000;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+	font-size: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+
+}
+
+
+/* General headers */
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+	padding: 20px;
+	padding-top: 40px;
+	color:#ECB700;
+	text-align: left;
+
+	
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	padding: 40px;
+	color:white;
+}
+
+/* GENERAL SECTION STUFF */
+
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color:black;
+}
+
+
+
+/* SECTION 1 SPECIFICALLY */
+
+#s1 {
+	
+	background: url(../images/ottawamarch_1971_03.jpg) fixed no-repeat center center;
+	background-size: cover;
+}
+
+#s1 article{
+	opacity: transparent;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	filter: alpha(opacity=70);
+}
+
+#s1 article h1 {
+	color: #ECB700;
+	font-weight: bold;
+	font-size: 90px;
+	text-align: center;
+	font font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+	text-shadow: 2px 2px 8px black;
+}
+#s1 h2{
+	font-size: 45px;
+	text-align: center;
+	color: #ECB700;
+	font font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+	text-shadow: 2px 2px 8px black;
+}
+
+#s1 img {
+	height: 100%;
+	width: 100%;
+}
+
+/* SECTION 2 SPECIFICALLY */ 
+
+div {
+	padding: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif", Gotham;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+}
+sup{
+	color: white;
+	text-decoration: none;
+	
+}
+
+#s3 img{
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+#s3 figcaption {
+	color: white;
+}
+
+#s4 img{
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+
+
+#s5 img{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: auto;
+	
+
+	
+}
+
+#s6 article2 img{
+	width: 20%;
+	margin-left: 20px;
+	
+}
+#s6 article3 img{
+	width: 75%;
+}
+
+#s6 article3 img:hover{
+	opacity: 0.6;
+}
+#s6 article5{
+	border:#254A2A;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

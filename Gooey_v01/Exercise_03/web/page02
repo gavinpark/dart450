@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DART398ASSIGNMENT 03</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div>
+	<header>
+	<h1> ASSIGNMENT 03</h1>
+	<h2> HTML5 & CSS PRACTICE</h2>
+	
+	</header>	
+	
+	<nav>
+		<a href="Index.html">my memoir</a>
+		<a href="web/page02.html">my bff</a>
+		<a href="web/page03.html">my sister</a>
+		
+	</nav>
+	
+	<article>
+		<h1> My Memoir</h1>	
+		<img src="images/Juju-01.jpg">
+		<p>As young readers like to know ‘how people look’, we
+		will take this moment to give them a little sketch of the
+		four sisters, who sat knitting away in the twilight, while
+		the December snow fell quietly without, and the fire
+		crackled cheerfully within. It was a comfortable room,
+		though the carpet was faded and the furniture very plain,
+		for a good picture or two hung on the walls, books filled
+		the recesses, chrysanthemums and Christmas roses
+		bloomed in the windows, and a pleasant atmosphere of
+		home peace pervaded it.
+		Margaret, the eldest of the four, was sixteen, and very
+		pretty, being plump and fair, with large eyes, plenty of soft
+		brown hair, a sweet mouth, and white hands, of which she
+		was rather vain. Fifteen- year-old Jo was very tall, thin,
+		and brown, and reminded one of a colt, for she never
+		seemed to know what to do with her long limbs, which
+		were very much in her way. She had a decided mouth, a
+		comical nose, and sharp, gray eyes, which appeared to see
+		everything, and were by turns fierce, funny, or thoughtful.
+		Her long, thick hair was her one beauty, but it was usually
+		bundled into a net, to be out of her way. Round shoulders
+		had Jo, big hands and feet, a flyaway look to her clothes,
+		and the uncomfortable appearance of a girl who was
+		rapidly shooting up into a woman and didn’t like it. 
+	
+		Elizabeth, or Beth, as everyone called her, was a rosy,
+		smooth- haired, bright-eyed girl of thirteen, with a shy
+		manner, a timid voice, and a ;peaceful expression which
+		was seldom disturbed. Her father called her ‘Little Miss
+		Tranquility’, and the name suited her excellently, for she
+		seemed to live in a happy world of her own, only
+		venturing out to meet the few whom she trusted and
+		loved. Amy, though the youngest, was a most important
+		person, in her own opinion at least. A regular snow
+		maiden, with blue eyes, and yellow hair curling on her
+		shoulders, pale and slender, and always carrying herself like
+		a young lady mindful of her manners. What the characters
+		of the four sisters were we will leave to be found out.
+		The clock struck six and, having swept up the hearth,
+		Beth put a pair of slippers down to warm. Somehow the
+		sight of the old shoes had a good effect upon the girls, for
+		Mother was coming, and everyone brightened to welcome
+		her. Meg stopped lecturing, and lighted the lamp, Amy
+		got out of the easy chair without being asked, and Jo
+		forgot how tired she was as she sat up to hold the slippers
+		nearer to the blaze. </p>
+		
+		<p class="pull_quote">
+			Because they are mean is no reason why I should be. I hate such things, and though I think I've a right to be hurt, I don't intend to show it.
+		</p>
+		
+		<p>While making these maternal inquiries Mrs. March got
+		her wet things off, her warm slippers on, and sitting down
+		in the easy chair, drew Amy to her lap, preparing to enjoy
+		the happiest hour of her busy day. The girls flew about,
+		trying to make things comfortable, each in her own way.
+		Meg arranged the tea table, Jo brought wood and set
+		chairs, dropping, over-turning, and clattering everything
+		she touched. Beth trotted to and fro between parlor
+		kitchen, quiet and busy, while Amy gave directions to
+		everyone, as she sat with her hands folded.
+		As they gathered about the table, Mrs. March said, with
+		a particularly happy face, ‘I’ve got a treat for you after
+		supper.’
+		A quick, bright smile went round like a streak of
+		sunshine. Beth clapped her hands, regardless of the biscuit
+		she held, and Jo tossed up her napkin, crying, ‘A letter! A
+		letter! Three cheers for Father!’
+		‘Yes, a nice long letter. He is well, and thinks he shall
+		get through the cold season better than we feared. He
+		sends all sorts of loving wishes for Christmas, and an
+		especial message to you girls,’ said Mrs. March, patting her
+		pocket as if she had got a treasure there. 
+		‘Hurry and get done! Don’t stop to quirk your little
+		finger and simper over your plate, Amy,’ cried Jo, choking
+		on her tea and dropping her bread, butter side down, on
+		the carpet in her haste to get at the treat.
+		Beth ate no more, but crept away to sit in her shadowy
+		corner and brood over the delight to come, till the others
+		were ready.
+		‘I think it was so splendid in Father to go as chaplain
+		when he was too old to be drafted, and not strong enough
+		for a soldier,’ said Meg warmly.
+		‘Don’t I wish I could go as a drummer, a vivan—what’s
+		its name? Or a nurse, so I could be near him and help
+		him,’ exclaimed Jo, with a groan.
+		‘It must be very disagreeable to sleep in a tent, and eat
+		all sorts of bad-tasting things, and drink out of a tin mug,’
+		sighed Amy.
+		‘When will he come home, Marmee? asked Beth, with
+		a little quiver in her voice.
+		‘Not for many months, dear, unless he is sick. He will
+		stay and do his work faithfully as long as he can, and we
+		won’t ask for him back a minute sooner than he can be
+		spared. Now come and hear the letter.’
+		They all drew to the fire, Mother in the big chair with
+		Beth at her feet, Meg and Amy perched on either arm of 
+		the chair, and Jo leaning on the back, where no one
+		would see any sign of emotion if the letter should happen
+		to be touching. Very few letters were written in those
+		hard times that were not touching, especially those which
+		fathers sent home. In this one little was said of the
+		hardships endured, the dangers faced, or the homesickness
+		conquered. It was a cheerful, hopeful letter, full of lively
+		descriptions of camp life, marches, and military news, and
+		only at the end did the writer’s heart over-flow with
+		fatherly love and longing for the little girls at home. </p>
+		
+		<h2> Let us be elegant or die! </h2>
+		
+		<p>The morning charities and ceremonies took so much
+		time that the rest of the day was devoted to preparations
+		for the evening festivities. Being still too young to go
+		often to the theater, and not rich enough to afford any
+		great outlay for private performances, the girls put their
+		wits to work, and necessity being the mother of invention,
+		made whatever they needed. Very clever were some of
+		their productions, pasteboard guitars, antique lamps made
+		of old-fashioned butter boats covered with silver paper,
+		gorgeous robes of old cotton, glittering with tin spangles
+		from a pickle factory, and armor covered with the same
+		useful diamond shaped bits left inn sheets when the lids of
+		preserve pots were cut out. The big chamber was the
+		scene of many innocent revels.
+		No gentleman were admitted, so Jo played male parts
+		to her heart’s content and took immense satisfaction in a
+		pair of russet leather boots given her by a friend, who
+		knew a lady who knew an actor. These boots, an old foil,
+		and a slashed doublet once used by an artist for some
+		picture, were Jo’s chief treasures and appeared on all
+		occasions. The smallness of the company made it necessary
+		for the two principal actors to take several parts apiece,
+		and they certainly deserved some credit for the hard work
+		they did in learning three or four different parts, whisking 
+		Little Women
+		29 of 861
+		in and out of various costumes, and managing the stage
+		besides. It was excellent drill for their memories, a
+		harmless amusement, and employed many hours which
+		otherwise would have been idle, lonely, or spent in less
+		profitable society. </p>
+		
+		
+		
+	</article>
+	
+	
+	<footer>
+		<p>little women</p>
+	</footer>
+
+</div>
+</body>
+</html>

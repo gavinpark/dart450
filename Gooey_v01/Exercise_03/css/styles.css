@@ -1,0 +1,144 @@
+
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	color: #C49143;
+	background-color: #8DCAD9;
+}
+
+div {
+	
+	background-color: aliceblue;
+	width: 90%;
+	margin:0 auto;
+	padding: 20px;
+}
+
+/*  HEADER   */
+header h1 {
+	font-size: 90px;
+	font-family: "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #DF8A8E;
+}
+header h2 {
+	font-size: 45px;
+	font-family: Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #DF8A8E;
+	font-style: italic;
+}
+header, nav, article, p {
+	margin-bottom:20px;
+}
+/*   ARTICLE    */
+article h1 {
+	font-size: 24px;
+	font-family: Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #DF8A8E;
+}
+article h2 {
+	font-size: 24px;
+	font-family:Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #B4665F;
+}
+
+article p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 12px;
+	line-height: 14px;
+}
+article img {
+	max-width: 100%;
+	
+}
+
+
+/*    FOOTER    */
+footer {
+	background-color: #729680;
+	padding: 5px;	
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/*    BASIC LINKS    */
+
+a:link {
+	color: #005C9D;
+	text-decoration-color: aquamarine;
+	border-bottom: 1px #000000  ridge;
+}
+
+a:visited {
+	color: #031333;
+	text-decoration: none;
+	border-bottom: 1px #000000 dotted;
+}
+
+a:hover {
+	color: darkgoldenrod;
+	text-decoration: none;
+	border-bottom: 1px #000000 dotted;
+}
+
+a:active {
+	color: #8CD0DE;
+	text-decoration: none;
+	border-bottom: 1px #000000 dotted;
+}
+
+/*    NAV LINKS    */
+
+nav {
+	background-color: lightgrey;
+	padding: 5px 0;
+}
+
+nav a:link {
+	background-color: lightgrey;
+	color: black;
+	padding: 5px 10px;
+	border-bottom: none;
+}
+
+nav a:visited {
+	background-color: lightgrey;
+	color: dimgrey;
+	padding: 5px 10px;
+	border-bottom: none;
+}
+
+nav a:hover {
+	background-color: lavender;
+	color: dimgrey;
+	padding: 10px 10px;
+	border-bottom: none;
+}
+
+
+/*     CLASSES    */
+
+.pull_quote {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 40px;
+	line-height: 42px;
+	width: 400px;
+	font-style: italic;
+	float: right;
+	margin-left: 10px;
+
+
+
+
+
+
+
+
+
