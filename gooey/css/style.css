@@ -1,11 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	height: 100vh;
+	overflow: hidden;
+}
+
+
 #wrapper{
 	background-color: lightblue;
 	height: 100vh;
 	transform: rotate(345deg);
-	overflow: hidden;
+
 }
 
 
