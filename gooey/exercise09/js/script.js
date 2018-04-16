@@ -55,7 +55,7 @@ setInterval(function() {
     var d = new Dot();
     dots.push(d);
   // }
-}, 10000);
+}, 5000);
 
 
 // This is the screen redraw function

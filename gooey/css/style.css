@@ -4,7 +4,8 @@
 #wrapper{
 	background-color: lightblue;
 	height: 100vh;
-	transform: rotate(118deg);
+	transform: rotate(345deg);
+	overflow: hidden;
 }
 
 
