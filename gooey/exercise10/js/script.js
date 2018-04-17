@@ -78,7 +78,7 @@ function animateToRandomLocation () {
   // This animation sends each letter to a random location on the x axis and 1600px from the top over 2.5 seconds
   $(this).animate({
     left: x+'px',
-    top:'1300px'
+    top:'1000px'
   }, 2500, function(){
     // Once the above function is finished, this animation sends each letter back to its starting location
     $(this).animate({

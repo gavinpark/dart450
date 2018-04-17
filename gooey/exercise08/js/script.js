@@ -27,23 +27,28 @@ $(document).ready(function () {
     var opacity = $('#paragraph').css('opacity');
     // console.log(opacity);
 
-      if (lastScrollAmount > 25 && opacity == 1){
-        console.log("Animating to 0");
-        $('#paragraph').animate({
-          "opacity": 0,
-        }, 100);
-      } else if (lastScrollAmount <= 25 && opacity == 0) {
-        console.log("Animating to 1");
-        $('#paragraph').css({
-          "opacity": 0.01,
-        })
-        setTimeout (function(){
-          $('#paragraph').animate({
-            "opacity": 1,
-          }, 1500);
-        },1000)
+    if (lastScrollAmount > 25 && opacity == 1){
+      console.log("Animating to 0");
+      $('#paragraph').animate({
+        "opacity": 0,
+      }, 100);
+    }
 
-      }
-  // }
+    else if (lastScrollAmount <= 25 && opacity == 0) {
+      console.log("Animating to 1");
+      $('#paragraph').css({
+        "opacity": 0.01,
+      })
+      setTimeout (function(){
+        $('#paragraph').animate({
+          "opacity": 1,
+        }, 1500);
+      },1000)
+    }
   }
+
+  function noscroll() {
+  window.scrollTo(0,0);
+  }
+ window.addEventListener('scroll', noscroll);
 });
