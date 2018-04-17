@@ -38,6 +38,23 @@ $(document).ready(function () {
   };
 
 
+});
+
+
+// This function calls the background colour to change to the next in the array
+function fadeBackground(){
+  currentBackgroundColor=currentBackgroundColor+1;
+  // This tells the function to start back at the first colour when it reaches the end of the array
+  if (currentBackgroundColor >= backgroundColors.length){
+    currentBackgroundColor = 0;
+  }
+  // this uses the variables set at the beginning of the script to animate a fade between background colours
+  $('body').animate({
+    backgroundColor:backgroundColors[currentBackgroundColor]
+  },backgroundFadeTime)
+}
+
+
 // This puts a span around each letter
 function dispurse(){
   $('#header01').show();
@@ -46,8 +63,6 @@ function dispurse(){
     //This calls the function animateToRandomLocation when the cursor rolls over each letter
   }).mouseover(animateToRandomLocation);
 };
-
-
 
 
 // This function sends each letter to a random location on the page
@@ -69,6 +84,6 @@ function animateToRandomLocation () {
     $(this).animate({
       top:0,
       left:0,
-    }, 4000);
+    }, 7000);
   });
 }

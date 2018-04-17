@@ -18,26 +18,23 @@ html, body {
   position: absolute;
   width: 20%;
   height: auto;
-  bottom: -200px;
+  bottom: -10px;
 }
 
 #revisit:hover {
     -webkit-animation-name: rotate;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 }
-@-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(-360deg);}
-}
+
 
 h1 {
-  top: 500px;
+  top: 700px;
   padding-left: 30px;
   padding-right: 30px;
-  color: lightblue;
+  color: antiquewhite;
   font-size: 80px;
-  font-family: arial;
-  text-align: center;
+  font-family: "source-code-pro";
+  font-weight: 100;
 }
