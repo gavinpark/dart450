@@ -7,15 +7,15 @@ Author
 Some description of the CSS styling
 
 */
+body {
+background-color: #c9532b;
+
+}
+
 .trail { /* className for the trail elements */
     position: absolute;
     height: 100px; width: 100px;
     border-radius: 50px;
-    background: lightblue;
+    background: white;
 
   }
-
-h1 {
-  size: 100px;
-  color: purple;
-}

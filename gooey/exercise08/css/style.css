@@ -10,6 +10,7 @@ Some description of the CSS styling
 
 body {
   height: 100%;
+  background-color: #c9532b;
 }
 
 div {
@@ -20,6 +21,7 @@ div {
   padding-top: 100px;
   padding-left: 100px;
   width: 1000px;
+  font-family: "source-code-pro", light;
   font-size: 70px;
-  color: lightblue;
+  color: white;
 }

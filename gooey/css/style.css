@@ -8,9 +8,9 @@ body {
 
 
 #gooeyClock {
-	background-color: lightblue;
+	background-color: #c9532b;
 	height: 100vh;
-	border: 1px solid black;
+
 }
 
 .nav{
@@ -32,13 +32,17 @@ body {
 	font-family: "source-code-pro",sans-serif;
 	font-size: 30px;
 	text-decoration: none;
-	color:#152C78;
+	color:#8fa7b8;
 }
 
 li a:hover:not(.active) {
 
 	color: white;
 	/*(text-shadow:#EBCBB5 2px 2px ;*/
+}
+
+header a:hover:not(.active) {
+	color: white;
 }
 
 header{
@@ -50,5 +54,5 @@ header a{
 	text-decoration: none;
 	font-family: "source-code-pro",sans-serif;
 	font-size: 200px;
-	color:#dd4b18;
+	color:#8fa7b8;
 }
