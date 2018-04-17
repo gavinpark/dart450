@@ -21,7 +21,7 @@ div {
   padding-top: 100px;
   padding-left: 100px;
   width: 1000px;
-  font-family: "source-code-pro";
+  font-family: "source-code-pro", arial;
   font-weight: 100;
   font-size: 70px;
   color: #8fa7b8;

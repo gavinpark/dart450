@@ -36,6 +36,6 @@ h1 {
   color: antiquewhite;
   text-align: center;
   font-size: 60px;
-  font-family: "source-code-pro";
+  font-family: "source-code-pro", arial;
   font-weight: 200;
 }
