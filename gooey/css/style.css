@@ -7,12 +7,10 @@ body {
 }
 
 
-#wrapper{
+.gooey-clock {
 	background-color: lightblue;
 	height: 100vh;
-	transform: rotate(345deg);
 }
-
 
 .nav{
 	list-style:none;
@@ -20,9 +18,11 @@ body {
 	padding:0;
 	text-align:center;
 }
+
 .nav li{
 	display:inline;
 }
+
 .nav a{
 	display:inline-block;
 	padding-left: 40px;
