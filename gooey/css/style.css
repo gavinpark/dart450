@@ -30,6 +30,7 @@ body {
 	padding-right: 40px;
 	padding-top: 20px;
 	font-family: "source-code-pro",sans-serif;
+	font-weight: 100;
 	font-size: 30px;
 	text-decoration: none;
 	color:#8fa7b8;
@@ -54,5 +55,6 @@ header a{
 	text-decoration: none;
 	font-family: "source-code-pro",sans-serif;
 	font-size: 200px;
+	font-weight: 100;
 	color:#8fa7b8;
 }

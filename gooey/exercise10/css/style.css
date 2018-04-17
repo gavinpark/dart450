@@ -30,11 +30,12 @@ html, body {
 
 
 h1 {
-  top: 700px;
+  top: 800px;
   padding-left: 30px;
   padding-right: 30px;
   color: antiquewhite;
-  font-size: 80px;
+  text-align: center;
+  font-size: 60px;
   font-family: "source-code-pro";
   font-weight: 100;
 }

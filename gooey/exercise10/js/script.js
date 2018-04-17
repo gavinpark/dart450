@@ -14,7 +14,7 @@ var backgroundFadeTime = 30000;
 // This sets the initial background colour in the array
 var currentBackgroundColor = 0;
 // This is the array of colours that will appear in the background
-var backgroundColors = ['#444F3F','#4A4643','#A37300','#272430','#373740','#282D40','#FA6648']
+var backgroundColors = ['#c9532b','#7d6154','#6a7b94','#665b56','#373740','#282D40','#FA6648']
 
 $(document).ready(function () {
 
@@ -78,12 +78,12 @@ function animateToRandomLocation () {
   // This animation sends each letter to a random location on the x axis and 1600px from the top over 2.5 seconds
   $(this).animate({
     left: x+'px',
-    top:'1600px'
+    top:'1300px'
   }, 2500, function(){
     // Once the above function is finished, this animation sends each letter back to its starting location
     $(this).animate({
       top:0,
       left:0,
-    }, 7000);
+    }, 30000);
   });
 }
