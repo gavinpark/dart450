@@ -26,7 +26,7 @@ function setDate() {
   var dayMinute = getDate.getHours() * 60 + hourMinute;
   console.log("dayMinute ", dayMinute);
 
-  var daySeconds = dayMinute * 60 + getDate.getSeconds();
+  // var daySeconds = dayMinute * 60 + getDate.getSeconds();
 
   // This creates a variable that turns the minute into a degree
   var minuteDegree = dayMinute / 1440 * 360;
