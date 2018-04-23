@@ -69,6 +69,7 @@ function dispurse(){
 function animateToRandomLocation () {
   // This creates a random location on the x axis
   var x = Math.floor(Math.random() * $(window).width());
+  var y = Math.floor(Math.random() * $(window).height());
 
   // Setting the position to be relative keeps the original position of each letter.
   $(this).css({
@@ -78,7 +79,7 @@ function animateToRandomLocation () {
   // This animation sends each letter to a random location on the x axis and 1600px from the top over 2.5 seconds
   $(this).animate({
     left: x+'px',
-    top:'1000px'
+    top: y+'px'
   }, 2500, function(){
     // Once the above function is finished, this animation sends each letter back to its starting location
     $(this).animate({

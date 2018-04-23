@@ -4,23 +4,21 @@ DART 450, Winter 2018
 Exercise 08
 Gavin Park
 
-
 **********************************************/
 
 // dots is an array of Dot objects,
 // mouse is an object used to track the X and Y position
-   // of the mouse, set with a mousemove event listener below
 
 $(document).ready(function () {
-
+// This variable represents the dots andn the mouse location
 var dots = [],
     mouse = {
       x: 0,
       y: 0
     };
 
-// The Dot object used to scaffold the dots
-
+// This variable checks the location of the last dot in the array.
+// It makes the last dot in the array trail the position of the cursor
 var Dot = function() {
   if (dots.length == 0) {
     this.x = mouse.x;
@@ -45,7 +43,7 @@ Dot.prototype.draw = function() {
   this.node.style.top = this.y + "px";
 };
 
-// Creates the Dot objects, populates the dots array
+// This variable creates the dot objects and adds to the dots array
 
 var d = new Dot();
 dots.push(d);

@@ -11,7 +11,7 @@ Adds a grid of divs to the page
 $(document).ready(function () {
 
   // Set how many divs we want to add
-  var totalDivsToAdd = 40; 
+  var totalDivsToAdd = 10; 
   // Keep track of how many we've added in the loop
   var divsAdded = 0; 
 
@@ -24,5 +24,9 @@ $(document).ready(function () {
     // Make a note that we've added one (so the loop will end at the right time)
     divsAdded = divsAdded + 1; 
   }
+
+
+
+
 
 });
