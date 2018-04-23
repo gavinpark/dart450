@@ -40,11 +40,13 @@ body {
 li a:hover:not(.active) {
 
 	color: white;
-	/*(text-shadow:#EBCBB5 2px 2px ;*/
+
+	/* text-shadow:#EBCBB5 2px 2px ; */
 }
 
 header a:hover:not(.active) {
 	color: white;
+	
 }
 
 header{
