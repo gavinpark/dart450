@@ -85,6 +85,6 @@ function animateToRandomLocation () {
     $(this).animate({
       top:0,
       left:0,
-    }, 50000);
+    }, 60000);
   });
 }
