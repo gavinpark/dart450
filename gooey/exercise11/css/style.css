@@ -11,13 +11,16 @@ body {
   background-color: #8fa7b8;
 }
 #appearDiv {
-  width: 90%;
-  height: 90%;
+  width: 600px;
+  height: 800px;
   background-color: #c9532b;
   animation: appear 4s ease-out;
-  border-radius: 4%;
+  border-radius: 60px;
   z-index: -1;
   opacity: 0;
+  margin: auto;
+  font-size: 10px;
+
 }
 #innerDiv {
   background-color: green;
