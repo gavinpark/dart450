@@ -15,9 +15,9 @@ body {
 #gooeyClock {
 	background-color: #c9532b;
 	height: 100vh;
-	-webkit-box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.5);
--moz-box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.5);
-box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.3);
+-moz-box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.3);
+box-shadow: 5px 5px 30px 10px rgba(0,0,0,0.3);
 
 }
 
