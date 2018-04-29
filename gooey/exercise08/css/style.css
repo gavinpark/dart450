@@ -1,3 +1,4 @@
+
 /*
 
 DART 450, Winter 2018
@@ -10,7 +11,7 @@ Some description of the CSS styling
 
 body {
   height: 100%;
-  background-color: #c9532b;
+  background-color: #8fa7b8;
 }
 
 div {
@@ -21,8 +22,6 @@ div {
   padding-top: 100px;
   padding-left: 100px;
   width: 1000px;
-  font-family: "source-code-pro", arial;
-  font-weight: 100;
   font-size: 70px;
-  color: #8fa7b8;
+  color: #c9532b;
 }

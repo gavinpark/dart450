@@ -2,7 +2,11 @@
 /* CSS Document */
 
 body {
+
 	height: 100vh;
+	width: 100%;
+	padding:0;
+	margin:0;
 	overflow: hidden;
 	display: none;
 }
@@ -46,7 +50,7 @@ li a:hover:not(.active) {
 
 header a:hover:not(.active) {
 	color: white;
-	
+
 }
 
 header{
