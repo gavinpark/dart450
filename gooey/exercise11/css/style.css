@@ -10,7 +10,7 @@ Styling for square divs with background colour
 body {
   background-color: #8fa7b8;
 }
-#appearDiv {
+#appearDiv01 {
   width: 600px;
   height: 800px;
   background-color: #c9532b;
@@ -22,15 +22,22 @@ body {
   font-size: 14px;
   padding: 50px;
 }
-
-#paragraph {
-
+#appearDiv02 {
+  width: 300px;
+  height: 400px;
+  background-color: antiquewhite;
+  border-radius: 60px;
+  z-index: 1;
+  opacity: 0;
+  /* margin: auto; */
+  font-size: 14px;
+  padding: 50px;
 }
-
+/*
 #innerDiv {
   background-color: green;
   display: none;
-}
+} */
 @keyframes appear {
   0% {
     opacity: 0;

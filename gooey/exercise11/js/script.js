@@ -8,9 +8,9 @@ Adds a grid of divs to the page
 
 **********************************************/
 
-var slowDiv = document.getElementById("appearDiv");
+var slowDiv = document.getElementById("appearDiv01");
 //each div or other html element must be "gotten" using get element by ID
-var innerDiv = document.getElementById("innerDiv");
+var innerDiv = document.getElementById("appearDiv02");
 var movX = 0;
 var movY = 0;
 let opacity = 0;
@@ -24,8 +24,9 @@ function mouseMove() {
   //to change css in javascript we can use dot notation to access and manipulate the properties of it's id name which we have already "gotten" using get elementById
   slowDiv.style.opacity = opacity + "";
   if (opacity > 1) {
-    innerDiv.style.display = "block";
+    innerDiv.style.opacity = opacity + "";
+
   }
 }
 
-document.getElementById("appearDiv").addEventListener("mousemove", mouseMove);
+document.getElementById("appearDiv01").addEventListener("mousemove", mouseMove);
