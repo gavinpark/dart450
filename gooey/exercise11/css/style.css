@@ -19,9 +19,14 @@ body {
   z-index: -1;
   opacity: 0;
   margin: auto;
-  font-size: 10px;
+  font-size: 14px;
+  padding: 50px;
+}
+
+#paragraph {
 
 }
+
 #innerDiv {
   background-color: green;
   display: none;
