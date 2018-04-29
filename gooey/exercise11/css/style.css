@@ -8,15 +8,29 @@ Styling for square divs with background colour
 
 */
 
-body {
-background-color: #c9532b;
-
+#appearDiv {
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  animation: appear 4s ease-out;
+  z-index: -1;
+  opacity: 0;
 }
-
-div {
-
-    height: 200px; width: 200px;
-    border-radius: 100px;
-    background: #8fa7b8;
-
+#innerDiv {
+  background-color: green;
+  display: none;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(+100vw);
   }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    transform: translatex(0);
+  }
+}
