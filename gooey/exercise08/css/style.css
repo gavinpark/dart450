@@ -21,7 +21,8 @@ div {
 #paragraph {
   padding-top: 100px;
   padding-left: 100px;
-  width: 1000px;
-  font-size: 70px;
+  width: 60%;
+  font-family: arial, sans-serif;
+  font-size: 90px;
   color: #c9532b;
 }
