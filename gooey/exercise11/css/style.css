@@ -12,6 +12,11 @@ background-color: #c9532b;
   background-color: #8fa7b8;
   z-index: -1;
   opacity: 0;
+
+  font-family: arial, sans-serif;
+  font-size: 50px;
+  overflow: hidden;
+  color: antiquewhite;
 }
 #appearDiv02 {
   border-radius: 30px;
@@ -19,9 +24,12 @@ background-color: #c9532b;
   height: 5%;
   margin: 3% auto;
   padding: 3%;
-  /* float: left; */
-  /* position: absolute; */
   bottom: 0;
   background-color: antiquewhite;
   display: none;
+
+  font-family: arial, sans-serif;
+  font-size: 50px;
+  overflow: hidden;
+  color: #8fa7b8;
 }
