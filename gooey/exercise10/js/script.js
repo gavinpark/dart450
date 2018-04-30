@@ -1,12 +1,11 @@
-/**********************************************
+/*
 
 DART 450, Winter 2018
-Midterm Project
+Final Project - gooey
 Gavin Park
 
-Description of what the script does...
+*/
 
-**********************************************/
 type="text/javascript"
 
 // This sets how long between each colour transition
