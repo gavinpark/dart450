@@ -1,27 +1,27 @@
 
+body {
+background-color: #c9532b;
+}
+
 #appearDiv01 {
-  width: 200px;
-  height: 400px;
-  background-color: yellow;
-  animation: appear 4s ease-out;
+  border-radius: 30px;
+  width: 90%;
+  height: 70%;
+  margin: 3% auto;
+  padding: 3%;
+  background-color: #8fa7b8;
   z-index: -1;
   opacity: 0;
 }
-#innerDiv02 {
-  background-color: green;
+#appearDiv02 {
+  border-radius: 30px;
+  width: 80%;
+  height: 10%;
+  margin: 3% auto;
+  padding: 3%;
+  /* float: left; */
+  /* position: absolute; */
+  bottom: 0;
+  background-color: antiquewhite;
   display: none;
-}
-@keyframes appear {
-  0% {
-    opacity: 0;
-    transform: translateX(+100vw);
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display: none;
-    transform: translatex(0);
-  }
 }
